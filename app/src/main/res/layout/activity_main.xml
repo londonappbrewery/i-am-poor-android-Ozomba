@@ -18,9 +18,12 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="19dp"
+        android:fontFamily="cursive"
         android:text="@string/title"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="@android:color/background_light"
-        android:textSize="40sp"
+        android:textSize="@dimen/textSize"
+        android:textStyle="bold"
         tools:text="@string/title" />
 
     <ImageView
